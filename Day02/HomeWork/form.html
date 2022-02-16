@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h3>* denotes mandatory</h3>
+    <br>
+    <form action="get">
+        <label for="name">Full name*:</label>
+        <br>
+        <input type="text" placeholder="FirstName LastName" required>
+        <br>
+        <label for="email">Email address:</label>
+        <br>
+        <input type="email" placeholder="EMAIL_ADDRESS" required>
+        <br>
+        <label for="package">Select Tour Package*:</label>
+        <br>
+        <select name="package" id="package_id" required>
+            <option value="Goa">Goa</option>
+            <option value="Doa">Doa</option>
+            <option value="Boa">Boa</option>
+        </select>
+        <br>
+        <label for="date">Arrival date*:</label>
+        <br>
+        <input type="date" placeholder="m/d/y" required>
+        <br>
+        <label for="#persons">Number of persons*:</label>
+        <br>
+        <input type="unknown" placeholder="UNKNOWN_TYPE" required>
+        <br>
+        What would you like to avail?*
+        Boarding<input type="checkbox"><br>
+        Fooding <input type="checkbox"><br>
+        Sight seeing <input type="checkbox"><br>
+        <label for="coupon_code" placeholder="UNKNOWN_TYPE">Discount Coupon Code:</label><br>
+        <input type="text">
+        <br>
+        <label for="terms_conditions" required>Terms and conditions*</label><br>
+        <input type="radio">I agree
+        <input type="radio">I disagree
+        <br>
+        <input type="button" value="Complete reservation"><br>
+    </form>
+</body>
+
+</html>
