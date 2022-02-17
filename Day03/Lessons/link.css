@@ -1,0 +1,16 @@
+.links{
+    /* text-decoration: none; */
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: black;
+    background-color: #9bc8a0;
+    padding: 1em;
+}
+.links:hover{
+    text-decoration: none;
+}
+li{
+    list-style: lower-roman;
+}
