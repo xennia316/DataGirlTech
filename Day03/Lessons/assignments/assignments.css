@@ -1,0 +1,14 @@
+div{
+    margin: 3em;
+    padding: 2vh;
+    background-color: aqua;
+    height: 70%;
+    width: 50vw;
+    border-width: 30px;
+    border-radius: 10%;
+    border-color: black;
+    border-style: groove;
+}
+body{
+    background-color: brown;
+}
