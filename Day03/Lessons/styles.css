@@ -1,0 +1,19 @@
+.name{
+    color: #454;
+    text-align: center;
+    text-decoration: dotted;
+    background-color: aqua;
+    margin: 2em;
+    padding: 3em;
+    font-weight: bolder;
+    font-size: larger;
+    width: 60%;
+}
+body{
+    background-color: rgba(112, 168, 119, 0.767);
+}
+.name:hover{
+   background-color: blueviolet;
+   font-family: cursive;
+   align-self: center;
+}
