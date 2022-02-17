@@ -1,0 +1,9 @@
+table {
+  border-collapse: collapse;
+}
+td {
+  padding: 50px;
+}
+tr:nth-child(even){
+    background-color: blueviolet;
+}
