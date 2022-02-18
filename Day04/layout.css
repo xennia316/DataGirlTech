@@ -1,0 +1,27 @@
+.container{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+.nav{
+    height: 100px;
+    background-color: orange;
+}
+.sideNav{
+    background: rgb(21, 214, 37);
+    height: 100px;
+    width: 33%;
+    /* float: left; */
+}
+.body{
+    height: 100px;
+    background-color: red;
+    width: 33%;
+    /* float: left; */
+}
+.footer{
+    /* float: left; */
+    width: 33%;
+    background-color: blue;
+    height: 100px;
+}
