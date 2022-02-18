@@ -1,0 +1,15 @@
+.black {
+  background-color: black;
+  height: 50vh;
+  width: 40vw;
+  float: right;
+  margin: 02vw;
+}
+
+.pink {
+  background-color: pink;
+  height: 50vh;
+  width: 40vw;
+  float: right;
+  margin: 02vw;
+}
