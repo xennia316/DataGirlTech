@@ -1,0 +1,17 @@
+.box {
+  height: 25em;
+  width: 15em;
+  background: linear-gradient(
+    rgba(67, 56, 77),
+    rgba(123, 45, 77),
+    rgba(45, 77, 88)
+  );
+  /* Hiding overflows */
+  overflow: hidden;
+  /* Letting the overflow  */
+  overflow: visible;
+  /* scroll burtton */
+  overflow: scroll;
+  /* Using auto */
+  overflow: auto;
+}
