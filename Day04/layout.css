@@ -4,16 +4,22 @@
     height: 100vh;
 }
 .nav{
+    position: fixed;
+    top: 0;
+    width: 100vw;
     height: 100px;
     background-color: orange;
 }
 .sideNav{
+    /* position: relative;
+    top: 05%; */
     background: rgb(21, 214, 37);
     height: 100px;
     width: 33%;
     /* float: left; */
 }
 .body{
+    position: static;
     height: 100px;
     background-color: red;
     width: 33%;
@@ -24,4 +30,7 @@
     width: 33%;
     background-color: blue;
     height: 100px;
+}
+body{
+    height: 150vh;
 }
