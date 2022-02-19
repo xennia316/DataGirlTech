@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  gap: 10px;
+}
+.box {
+  padding: 1rem;
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+}
+/* The smaller ordered element comes before the first element */
+.box1 {
+  order: 2;
+}
+.box2 {
+  align-self: center;
+  order: 1;
+}
