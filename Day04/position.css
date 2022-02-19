@@ -1,0 +1,48 @@
+.relative {
+  position: relative;
+  left: 80%;
+  width: 20vw;
+  height: 20vh;
+  overflow: scroll;
+  background-color: rgb(253, 46, 46);
+}
+.fixed {
+  position: fixed;
+  height: 30vh;
+  width: 30vw;
+  top: 0;
+  left: 10%;
+  background-color: aqua;
+  z-index: 10;
+}
+.static {
+  position: static;
+  width: 20vw;
+  height: 20vh;
+  background-color: blueviolet;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  height: 30vh;
+  width: 30vw;
+  z-index: 20;
+  background-color: gold;
+}
+.absolute {
+  position: absolute;
+  right: 0;
+  width: 25vw;
+  height: 30vh;
+  background-color: chartreuse;
+  
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(
+    rgb(115, 28, 187),
+    rgb(221, 151, 165),
+    rgb(156, 44, 44)
+  );
+}
