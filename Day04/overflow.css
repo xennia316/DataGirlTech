@@ -15,3 +15,6 @@
   /* Using auto */
   overflow: auto;
 }
+body{
+  background-color: red;
+}
