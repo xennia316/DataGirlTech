@@ -4,26 +4,31 @@
 }
 nav {
   display: flex;
-  color: black;
+  flex-direction: row;
+  position: sticky;
+  top: 0;
+  flex-wrap: nowrap;
   justify-content: space-between;
   padding: 02vw;
 }
-.menu {
-  width: 5%;
-  background-color: black;
+.ham{
+  background-color: #000;
+  height: 0.5vh;
+  width: 2.5vw;
+  margin: 0.3vh;
 }
-
-.container {
+.meals{
   display: flex;
-  flex-wrap: nowrap;
-  gap: 1vw;
-  justify-content: space-around;
-}
-.first {
-  height: 20vh;
-  width: 20vw;
+  flex-wrap: wrap;
+  order: none;
+  gap: 1em;
 }
 .img{
-    text-align: center;
-    margin-top: 2em;
+  height: 30vh;
+  width: 20vh;
+}
+.meal{
+  text-align: center;
+  max-width: 20vw;
+  max-height: 60vh;
 }
