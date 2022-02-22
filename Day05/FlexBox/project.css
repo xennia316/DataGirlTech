@@ -102,7 +102,7 @@ nav {
 }
 .container,
 .container2 {
-  border-bottom: 3px solid whitesmoke;
+  border-bottom: 3px solid rgb(236, 232, 232);
   padding-bottom: 8em;
 }
 .about {
@@ -144,7 +144,7 @@ footer {
   margin: 0.8em;
 }
 hr {
-  color: whitesmoke;
+  color: rgb(212, 209, 209);
 }
 span {
   background-color: grey;
@@ -160,7 +160,7 @@ span {
   padding-right: 8px;
 }
 .last:hover {
-  background: whitesmoke;
+  background: rgb(194, 187, 187);
 }
 .alone{
   color: #fff;
@@ -169,7 +169,7 @@ span {
 }
 body{
   width: 100vw;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   display: flex;
   flex-direction: column;
   justify-content: center;
