@@ -1,0 +1,20 @@
+.grid-coontainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto 50vh;
+    gap: 10px;
+}
+.child{
+    padding: 1rem;
+    background-color: #123456;
+}
+.child:nth-child(5){
+    background-color: aqua;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    /* Short hand for grid-column-start and end */
+    grid-column: 3/5;
+}
+.child:nth-child(1){
+    grid-column: 1 /span 3;
+}
