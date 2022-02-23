@@ -11,30 +11,92 @@ body {
 }
 .food {
   display: flex;
-  width: 80vw;
+  width: 75vw;
   align-self: center;
-  background: #000;
-  height: 50vh;
+  height: 70vh;
   margin: 2rem;
 }
-
 .meal {
   width: 25%;
   height: auto;
-  background-color: aquamarine;
   margin: 0.2rem;
   padding: 1%;
+  text-align: center;
 }
 .img {
-  background-color: blue;
-  max-width: 100%;
-  height: 70%;
+  width: 100%;
+  /* height: 70%; */
 }
 .title {
-  background-color: bisque;
-  height: 10%;
+  width: 100%;
 }
 .description {
-  height: 20%;
-  background-color: blueviolet;
+  margin: 2rem 0;
+  width: 100%;
+  align-self: center;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0;
+}
+.children {
+  padding: 0.5em 1em;
+}
+.children:hover {
+  background-color: black;
+  color: #fff;
+}
+.odd {
+  background-color: black;
+  color: #fff;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: inherit;
+}
+.about p {
+  padding: inherit;
+  margin: 1% 10%;
+}
+footer {
+  display: flex;
+  padding: 5em;
+}
+.under {
+  width: 33.333%;
+  margin: 1em;
+}
+.last img {
+  width: 3em;
+  margin: 1.5em 1px 0;
+  height: 3em;
+}
+.last1,
+.last2 {
+  display: flex;
+}
+.last p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+span {
+  background-color: rgb(131, 126, 126);
+  color: #fff;
+  margin: 5px;
+  padding: 2px;
+}
+.span {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.7em;
+}
+.last1:hover {
+  background-color: rgb(202, 198, 198);
+}
+.last2:hover {
+  background-color: rgb(194, 188, 188);
 }
