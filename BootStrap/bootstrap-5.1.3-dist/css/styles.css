@@ -1,0 +1,21 @@
+:root{
+    --background-color: orangered;
+}
+.navbar{
+    height: 10vh;
+    background: var(--background-color);
+}
+.sidebar{
+    height: 90vh;
+    background-color: blue;
+}
+.card{
+    height: 200px;
+    width: 100%;
+    border: 1px solid var(--background-color);
+}
+@media screen and (max-width: 415px){
+    .sidebar{
+        display: none;
+    }
+}
