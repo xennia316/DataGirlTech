@@ -1,0 +1,31 @@
+.tt {
+  background-color: #ffa500;
+  padding: 1rem;
+}
+h1,
+p {
+  color: #000;
+}
+.section{
+    display: flex;
+    gap: 1em;
+}
+@media screen and (max-width: 250px) {
+  .tt{
+    background-color: #000;
+  }
+  .section{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+  }
+  h1,
+  p {
+    color: #ffa500;
+  }
+}
+@media screen and (max-width: 700px) {
+    .second{
+        width: 500px;
+    }
+}
