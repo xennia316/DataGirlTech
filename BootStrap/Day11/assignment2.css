@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    height: 20vh !important;
+    margin: 0.3em !important;
+}
+.top{
+    border-right: 5px solid white !important;
+}
