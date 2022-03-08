@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #0586d1;
+    height: 100vh;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+script{
+    background-color: black;
+    color: orange;
+}
