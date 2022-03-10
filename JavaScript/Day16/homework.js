@@ -4,7 +4,7 @@
 
 // Program to evaluate students and assign grades based on their scores.
 
-let grade = 58;
+let grade = 100;
 
 if (grade >= 80) {
     console.log("Excellent!. You have an A grade");
