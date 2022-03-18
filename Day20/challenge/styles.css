@@ -4,50 +4,123 @@
     margin: 0;
     padding: 0;
 }
-input{
+
+input {
     padding: 0.3em;
 }
+
 body {
-    line-height: 2;
-    font-family: 'Karma', serif;
     font-family: 'Poppins', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
 }
-.navtop-right:hover{
+
+.navtop-right:hover {
     color: rgb(156, 152, 152);
     cursor: pointer;
 }
-nav{
+
+nav {
     background-color: #fff;
     margin-top: 1rem;
 }
-.navbottom{
+
+.navbottom {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-left: 4em;
 }
+
+.navbottom .npm {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbottom .input {
+    flex: 4;
+}
+
+.navbottom .sign {
+    flex: 2;
+    margin-top: 0.9em;
+    padding: 0.5em;
+}
+
 .navtop {
-    display: flex;
-    justify-content: space-between;
-}
-.navtop-left{
     display: flex;
     justify-content: space-around;
 }
-.navtop-left h5{
+
+.navtop-left {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navtop-left h5 {
     margin-left: 20px;
 }
-.navtop-right{
+
+.navtop-right {
     display: flex;
 }
-.container{
+
+.container {
     width: 100vw;
 }
-.navbottom button{
-    width: 6em;
-    padding: 0.4em;
 
+.input input {
+    height: fit-content;
+    margin-top: 0;
+    width: 65%;
+    background: rgb(206, 203, 203);
+    border: none;
+    flex: 5;
+    padding: 0.9em;
 }
-.back{
+.sign .first-button{
+    border: 1px solid #000;
+}
+.input {
+    margin: 1em;
+    background: rgb(206, 203, 203);
+    height: fit-content;
+    color: black;
+    display: flex;
+}
+
+.input i {
+    color: black;
+    flex: 1;
+}
+
+.input button {
+    flex: 1;
+    height: 3.5em;
+}
+
+.navbottom button {
+    width: 6em;
+    align-self: flex-end;
+}
+
+.back button {
+    width: 12em;
+    margin: 0.5em !important;
+    padding: 01em !important;
+    border-radius: 50px !important;
+}
+
+.sign {
+    margin-top: 01em;
+}
+
+.sign button {
+    padding: 0.5em;
+    border: none;
+    background-color: #fff;
+}
+
+.back {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -59,41 +132,56 @@ nav{
     text-align: center;
     padding: 2em 4em 1em 5em;
 }
-.top{
+
+.top {
     font-size: 100px;
 }
-.middle{
+
+.middle {
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: space-around;
     height: 50vh;
 }
-.middle img{
+
+.middle img {
     align-self: center;
     height: 80px;
     width: 80px;
 }
-.next{
+
+.input i {
+    font-size: 20px;
+    align-self: center;
+    justify-self: center;
+    padding-left: 1em;
+}
+
+.next {
     background-image: url(./imgs/img2.png);
     height: 30vh;
     text-align: center;
     color: #fff;
     padding: 5em;
 }
-.next h1{
+
+.next h1 {
     padding-bottom: 1em;
 }
-.new{
+
+.new {
     text-align: center;
     padding: 5em;
 }
-footer{
+
+footer {
     padding: 2em;
     display: flex;
     justify-content: space-around;
 }
-i{
+
+i {
     color: black;
     font-size: 80px;
 }
