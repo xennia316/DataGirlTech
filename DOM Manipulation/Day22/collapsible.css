@@ -1,0 +1,7 @@
+.item{
+    height: 100px;
+    width: 500px;
+    background-color: black;
+    color: #fff;
+    transition: height 0.5s;
+}
