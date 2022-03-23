@@ -98,7 +98,7 @@ nav {
 }
 .number:hover {
   background-color: #000;
-  color: #fff;
+  color: gray;
 }
 .container,
 .container2 {
