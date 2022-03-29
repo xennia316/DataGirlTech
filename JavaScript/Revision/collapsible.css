@@ -13,7 +13,7 @@
 .collapsible {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-color: rgb(248, 170, 170);
+    background-color: #f8aaaa;
     color: rgb(248, 231, 231);
     cursor: pointer;
     padding: 18px;
