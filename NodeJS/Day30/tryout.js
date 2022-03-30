@@ -1,7 +1,13 @@
-let http = require('http');
+const express = require('express');
 
-http.createServer(function (req, res) {
-    res.writeHead(200, { 'Content-Type': 'text/plain' });
-    // res.end('Hello world!');
-    res.end('It\'s my first backend code');
-}).listen(8080);
+const app = express();
+
+app.listen(8080, () => {
+    console.log("Server started successfully....");
+})
+
+app.use(express.static(__dirname));
+
+app.get("/", (req,res) => {
+    res.sendFile(__dirname + '/index.html' )                                                   ;
+}); 
