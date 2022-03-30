@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300&family=Poppins:wght@100&family=Source+Sans+Pro:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    padding: 0.3em;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+.navtop-right:hover {
+    color: rgb(156, 152, 152);
+    cursor: pointer;
+}
+
+nav {
+    background-color: #fff;
+    margin-top: 1rem;
+}
+
+.navbottom {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 4em;
+}
+
+.navbottom .npm {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbottom .input {
+    flex: 4;
+}
+
+.navbottom .sign {
+    flex: 2;
+    margin-top: 0.9em;
+    padding: 0.5em;
+}
+
+.navtop {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navtop-left {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navtop-left h5 {
+    margin-left: 20px;
+}
+
+.navtop-right {
+    display: flex;
+}
+
+.container {
+    width: 100vw;
+}
+
+.input input {
+    height: fit-content;
+    margin-top: 0;
+    width: 65%;
+    background: rgb(206, 203, 203);
+    border: none;
+    flex: 5;
+    padding: 0.9em;
+}
+.sign .first-button{
+    border: 1px solid #000;
+}
+.input {
+    margin: 1em;
+    background: rgb(206, 203, 203);
+    height: fit-content;
+    color: black;
+    display: flex;
+}
+
+.input i {
+    color: black;
+    flex: 1;
+}
+
+.input button {
+    flex: 1;
+    height: 3.5em;
+}
+
+.navbottom button {
+    width: 6em;
+    align-self: flex-end;
+}
+
+.back button {
+    width: 12em;
+    margin: 0.5em !important;
+    padding: 01em !important;
+    border-radius: 50px !important;
+}
+
+.sign {
+    margin-top: 01em;
+}
+
+.sign button {
+    padding: 0.5em;
+    border: none;
+    background-color: #fff;
+}
+
+.back {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url(./imgs/img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    color: #fff;
+    text-align: center;
+    padding: 2em 4em 1em 5em;
+}
+
+.top {
+    font-size: 100px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    height: 50vh;
+}
+
+.middle img {
+    align-self: center;
+    height: 80px;
+    width: 80px;
+}
+
+.input i {
+    font-size: 20px;
+    align-self: center;
+    justify-self: center;
+    padding-left: 1em;
+}
+
+.next {
+    background-image: url(./imgs/img2.png);
+    height: 30vh;
+    text-align: center;
+    color: #fff;
+    padding: 5em;
+}
+
+.next h1 {
+    padding-bottom: 1em;
+}
+
+.new {
+    text-align: center;
+    padding: 5em;
+}
+
+footer {
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+
+i {
+    color: black;
+    font-size: 80px;
+}
