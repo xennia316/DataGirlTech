@@ -1,6 +1,14 @@
 {
+  "scripts": {
+    "start": "node tryout2",
+    "dev": "nodemon tryout2"
+  },
   "dependencies": {
     "body-parser": "^1.19.2",
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
